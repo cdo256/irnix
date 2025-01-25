@@ -38,6 +38,10 @@ test *args: (builder "test" args)
 [group('rebuild')]
 switch *args: (builder "switch" args)
 
+# Simply build the system.
+[group('rebuild')]
+build-system *args: (builder "build" args)
+
 [group('rebuild')]
 [macos]
 provision host:
