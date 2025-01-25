@@ -7,7 +7,7 @@
 {
   programs.nh = {
     enable = true;
-    package = inputs'.beapkgs.packages.nh;
+    package = inputs'.nh.packages.nh;
 
     clean = {
       enable = !config.nix.gc.automatic;

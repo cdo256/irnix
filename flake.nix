@@ -279,5 +279,13 @@
       repo = "flake-utils";
       inputs.systems.follows = "systems";
     };
+
+    # Nix Helper with build-vm patch.
+    nh = {
+      type = "github";
+      owner = "cdo256";
+      repo = "nh";
+      ref = "build-vm";
+    };
   };
 }

@@ -29,6 +29,7 @@
               self'.formatter # nix formatter
               pkgs.nix-output-monitor # get clean diff between generations
               inputs'.agenix.packages.agenix # secrets
+              inputs'.nh.packages.nh # nix-helper
             ]
             ++ lib.lists.optionals pkgs.stdenv.hostPlatform.isLinux [
               inputs'.deploy-rs.packages.deploy-rs # remote deployment

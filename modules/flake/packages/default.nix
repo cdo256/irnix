@@ -19,6 +19,7 @@
 
         lix = callPackage ./pkgs/lix/package.nix { inherit inputs' inputs; };
         docs = callPackage ./pkgs/docs.nix { inherit (inputs) self; };
+        inherit (inputs'.nh.packages) nh;
       };
     };
 }
