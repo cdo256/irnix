@@ -94,6 +94,8 @@ in
 
     cottage.hardware.info = "A laptop for my partner";
 
+    halley.hardware.info = "Christina's T480";
+
     wisp = {
       hardware.info = "A WSL2 system, on cottage";
 

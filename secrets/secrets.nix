@@ -31,6 +31,10 @@ let
       key = "";
       owner = "robin";
     };
+    halley = {
+      key = "";
+      owner = "robin";
+    };
     wisp = {
       key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC7cduddxQbnFeBWjt9L6Uml5mjnfEOxZqd4LoyRDTmg";
       owner = "robin";
@@ -45,6 +49,7 @@ let
       valkyrie
       wisp
       cottage
+      halley
     ];
     hybrid = [ hydra ];
   };

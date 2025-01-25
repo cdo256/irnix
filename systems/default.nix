@@ -89,6 +89,11 @@ in
         graphical
       ];
 
+      halley.modules = [
+        laptop
+        graphical
+      ];
+
       wisp.modules = [
         wsl
         headless
