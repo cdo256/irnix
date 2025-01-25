@@ -40,6 +40,10 @@ switch *args: (builder "switch" args)
 
 # Simply build the system.
 [group('rebuild')]
+build-vm *args: (builder "build-vm" args)
+
+# Simply build the system.
+[group('rebuild')]
 build-system *args: (builder "build" args)
 
 [group('rebuild')]
